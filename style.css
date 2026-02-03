@@ -4,6 +4,7 @@
 
 body {
   background: #141E30;
+  margin: 0; 
 }
 
 p {
@@ -236,9 +237,11 @@ header {
 }
 
 main {
-  width: 1500px;
+  width: 100%;
+  max-width: 1500px;
   margin: 0 auto;
 }
+
 
 #recommendations {
   height: 1000px;
@@ -273,7 +276,7 @@ main {
   width: 100%;
   height: auto;
   display: block;
-  opacity: 20%
+  opacity: 1;
 }
 
 footer {
